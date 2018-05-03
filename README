@@ -1,0 +1,33 @@
+Nagios-Plugin-IMAPQuota version 0.01
+====================================
+
+This is a plugin for Nagios, which allows you to monitor a single
+IMAP mailbox for quota usage, provided that your mail server supports it.
+
+After installing this module, use the check_imap_quota.pl script as the Nagios plugin.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Mail::IMAPClient
+  Nagios::Plugin
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011 by Tore A. Klock
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.12.3 or,
+at your option, any later version of Perl 5 you may have available.
+
+

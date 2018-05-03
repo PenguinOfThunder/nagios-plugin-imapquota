@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Nagios-Plugin-IMAPQuota.t
+lib/Nagios/Plugin/IMAPQuota.pm
+script/check_imap_quota.pl
+META.yml                                 Module meta-data (added by MakeMaker)
