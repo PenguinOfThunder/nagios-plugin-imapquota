@@ -38,8 +38,8 @@ q{This plugin monitors the quota status of one or more IMAP mailboxes under a si
         default  => $defaults{warning},
         required => 1,
         help     => [
-qq{Exit with log_warnING status if the amount of free space is outside this range (in KB)},
-qq{Exit with log_warnING status if the percentage of free space is outside this range. (default: '%s')}
+qq{Exit with WARNING status if the amount of free space is outside this range (in KB)},
+qq{Exit with WARNING status if the percentage of free space is outside this range. (default: '%s')}
         ],
         label => [ '[@]start:end', '[@]start:end%' ],
     );
@@ -269,11 +269,11 @@ Server hostname. (Default: 'localhost')
 
 =item -w, --warning=[@]start:end
 
-Exit with log_warnING status if the amount of free space is outside this range (in KB)
+Exit with WARNING status if the amount of free space is outside this range (in KB)
 
 =item -w, --warning=[@]start:end%
 
-Exit with log_warnING status if the percentage of free space is outside this range. (default: '@0:10%')
+Exit with WARNING status if the percentage of free space is outside this range. (default: '@0:10%')
 
 =item -c, --critical=[@]start:end
 
